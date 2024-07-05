@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Science Course</title>
+    <style>
+        .top{
+            color: #333;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 1rem;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+        main {
+            padding: 1rem;
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2, h3 {
+            color: #333;
+        }
+        article {
+            margin-bottom: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Data Science Course</h1>
+    </header>
+    <nav>
+        <ul >
+            <li ><a class="top" href="#introduction">Introduction to Data Science</a></li>
+            <li><a class="top" href="#tools-and-technologies">Tools and Technologies</a></li>
+            <li><a class="top" href="#data-collection">Data Collection and Cleaning</a></li>
+            <li><a class="top" href="#eda">Exploratory Data Analysis (EDA)</a></li>
+            <li><a class="top" href="#supervised-learning">Introduction to Machine Learning</a></li>
+            <li><a class="top" href="#project">Project: Building a Simple Model</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="introduction">
+            <h2>Introduction to Data Science</h2>
+            <article>
+                <h3>What is Data Science?</h3>
+                <p>Data science is an interdisciplinary field that utilizes various techniques, algorithms, and systems to extract knowledge and insights from structured and unstructured data. It integrates principles from mathematics, statistics, computer science, and domain-specific knowledge to analyze and interpret complex data sets. The primary goal is to uncover patterns, derive meaningful insights, and support decision-making processes.</p>
+                <p><strong>Example:</strong> Consider a retail company wanting to understand customer purchasing behavior. By analyzing transaction data, customer demographics, and browsing history, data scientists can identify trends, such as peak shopping times, popular products, and customer preferences, to optimize inventory management and marketing strategies.</p>
+            </article>
+        </section>
+        <section id="tools-and-technologies">
+            <h2>Tools and Technologies</h2>
+            <article>
+                <h3>Tools and Technologies</h3>
+                <p>Data science leverages various tools and technologies to process, analyze, and visualize data. Key tools include:</p>
+                <ul>
+                    <li><strong>Python:</strong> A versatile programming language with libraries like Pandas, NumPy, and Scikit-Learn for data manipulation and machine learning.</li>
+                    <li><strong>R:</strong> A statistical computing language ideal for data analysis and visualization with packages like ggplot2 and dplyr.</li>
+                    <li><strong>Jupyter Notebooks:</strong> An interactive environment for writing and executing code, documenting analysis, and sharing results.</li>
+                </ul>
+                <p><strong>Example:</strong> A data scientist might use Python to clean and preprocess data, apply machine learning algorithms to build predictive models, and use Jupyter Notebooks to document the workflow, visualize results with Matplotlib, and share findings with stakeholders.</p>
+            </article>
+        </section>
+        <section id="data-collection">
+            <h2>Data Collection and Cleaning</h2>
+            <article>
+                <h3>Data Collection</h3>
+                <p>Data collection involves gathering relevant data from various sources. This process can include:</p>
+                <ul>
+                    <li><strong>Types of Data:</strong> Structured data (databases, spreadsheets) and unstructured data (text, images).</li>
+                    <li><strong>Data Sources:</strong> Databases, APIs, web scraping, surveys, and sensors.</li>
+                    <li><strong>Web Scraping:</strong> Extracting data from websites using tools like BeautifulSoup or Scrapy.</li>
+                </ul>
+                <p><strong>Example:</strong> To analyze social media sentiment, a data scientist might use APIs provided by Twitter or Facebook to collect posts, comments, and reactions. Web scraping techniques could be used to gather additional data from forums or review sites.</p>
+            </article>
+            <article>
+                <h3>Data Cleaning</h3>
+                <p>Data cleaning is the process of preparing raw data for analysis by handling inaccuracies and inconsistencies. This involves:</p>
+                <ul>
+                    <li><strong>Handling Missing Values:</strong> Techniques such as imputation, deletion, or interpolation.</li>
+                    <li><strong>Data Transformation:</strong> Converting data into a suitable format, such as normalizing or encoding categorical variables.</li>
+                    <li><strong>Data Normalization:</strong> Scaling numerical data to a standard range.</li>
+                </ul>
+                <p><strong>Example:</strong> If a dataset contains missing values in certain columns, a data scientist might fill them with the mean or median value of the column (imputation) or remove rows with missing data. They may also normalize numerical features to a range of 0-1 for better performance in machine learning models.</p>
+            </article>
+        </section>
+        <section id="eda">
+            <h2>Exploratory Data Analysis (EDA)</h2>
+            <article>
+                <h3>Data Visualization</h3>
+                <p>Data visualization involves creating graphical representations of data to identify patterns, trends, and outliers. Key libraries include:</p>
+                <ul>
+                    <li><strong>Matplotlib:</strong> A comprehensive library for creating static, animated, and interactive visualizations in Python.</li>
+                    <li><strong>Seaborn:</strong> A Python library based on Matplotlib that provides a high-level interface for drawing attractive and informative statistical graphics.</li>
+                    <li><strong>Plotting Basics:</strong> Understanding different types of plots like histograms, scatter plots, and box plots.</li>
+                </ul>
+                <p><strong>Example:</strong> To understand the distribution of a continuous variable, a data scientist might create a histogram using Matplotlib. For visualizing relationships between two variables, a scatter plot or a pair plot using Seaborn can be useful.</p>
+            </article>
+            <article>
+                <h3>Descriptive Statistics</h3>
+                <p>Descriptive statistics summarize and describe the main features of a dataset. Important measures include:</p>
+                <ul>
+                    <li><strong>Mean, Median, Mode:</strong> Central tendency measures.</li>
+                    <li><strong>Variance and Standard Deviation:</strong> Measures of dispersion indicating the spread of data.</li>
+                    <li><strong>Correlation and Covariance:</strong> Metrics to determine the relationship between two variables.</li>
+                </ul>
+                <p><strong>Example:</strong> In a dataset of house prices, the mean provides the average price, while the median indicates the middle value, and the mode shows the most frequent price. Standard deviation and variance reveal how spread out the prices are, and correlation analysis can show if there's a relationship between house prices and the size of the house.</p>
+            </article>
+        </section>
+        <section id="supervised-learning">
+            <h2>Introduction to Machine Learning</h2>
+            <article>
+                <h3>Supervised Learning</h3>
+                <p>Supervised learning involves training models on labeled data to make predictions. Key algorithms include:</p>
+                <ul>
+                    <li><strong>Linear Regression:</strong> Predicts a continuous target variable based on one or more input features.</li>
+                    <li><strong>Classification:</strong> Assigns data points to predefined categories (e.g., logistic regression, decision trees).</li>
+                </ul>
+                <p><strong>Example:</strong> A linear regression model could predict house prices based on features like size, location, and number of bedrooms. A classification model might categorize emails as spam or not spam based on their content.</p>
+            </article>
+            <article>
+                <h3>Unsupervised Learning</h3>
+                <p>Unsupervised learning deals with unlabeled data to find hidden patterns. Key techniques include:</p>
+                <ul>
+                    <li><strong>Clustering:</strong> Grouping data points with similar characteristics (e.g., K-means clustering).</li>
+                    <li><strong>Principal Component Analysis (PCA):</strong> Reduces the dimensionality of data while retaining most of the variance.</li>
+                </ul>
+                <p><strong>Example:</strong> Clustering can be used in customer segmentation to identify groups of customers with similar buying habits. PCA can simplify data with many features (e.g., image data) by reducing it to its principal components.</p>
+            </article

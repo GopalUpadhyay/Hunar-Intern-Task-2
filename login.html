@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <style>
+      body {
+        background-color: #2f4f4f;
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 20px;
+        padding: 0;
+      }
+      .container {
+        padding: 80px 80px 30px 80px;
+        max-width: 800px;
+        height: 400px;
+        margin: 80px 250px;
+        background-color: #008080;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        /* width: fit-content; */
+        text-align: center;
+      }
+      h2 {
+        color: #333;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 10px;
+      }
+      h3 {
+        margin-top: 20px;
+        color: #555;
+      }
+      p {
+        margin-bottom: 15px;
+      }
+      ul {
+        margin-bottom: 15px;
+        padding-left: 20px;
+      }
+      li {
+        margin-bottom: 5px;
+      }
+      .container table {
+        position: relative;
+        left: 180px;
+      }
+      .container label {
+        margin-bottom: 50px;
+        font-weight: bolder;
+      }
+      .submit {
+        position: relative;
+        right: 180px;
+        top: 80px;
+        background-color: white;
+        width: 100px;
+        height: 30px;
+        border-radius: 30px;
+      }
+      .password {
+        margin-left: 6.2px;
+      }
+      .mail {
+        margin-left: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Login</h1>
+
+      <table>
+        <tr>
+          <form action="" method="get" enctype="text/plain">
+            <tr>
+              <td>
+                <label for="">Enter your name:</label>
+                <input class="name" type="text" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="">Enert the mail: </label>
+                <input class="mail" type="email" name="Email" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="">Enter password: </label>
+                <input class="password" type="Password" />
+                <input class="submit" type="submit" />
+              </td>
+            </tr>
+
+            <!-- <tr>
+                    <td>
+                        <input class="submit" type="submit">
+                    </td>
+                </tr> -->
+          </form>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
